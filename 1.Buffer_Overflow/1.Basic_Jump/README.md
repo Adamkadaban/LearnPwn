@@ -158,7 +158,7 @@ End of assembler dump.
 [+] In '[stack]'(0x7ffffffde000-0x7ffffffff000), permission=rw-
   0x7fffffffdfd1 - 0x7fffffffdfd9  →   "AAAAAAAA" 
 ```
-	* `0x7fffffffdfd1` is the start address of the string
+	* The start of the address of the string is `0x7fffffffdfd1` 
 
 9. We can run `i f` to look at information on the current frame. We get the following:
 ```bash
