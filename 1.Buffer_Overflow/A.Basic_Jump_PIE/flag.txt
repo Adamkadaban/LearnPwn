@@ -1,0 +1,1 @@
+adamCTF{get_the_offset}
