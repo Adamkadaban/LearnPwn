@@ -10,6 +10,7 @@ void getName(){
 	printf("Cool name %s!", name);
 
 	// ensures exploit works on all computers
+	// one_gadget needs these values to be 0
 	asm("xor %r12, %r12");
 	asm("xor %r13, %r13");
 	asm("xor %rcx, %rcx");
