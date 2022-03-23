@@ -18,5 +18,5 @@ int main(){
 }
 
 void openShell(){
-        system("/bin/sh");
+	system("/bin/sh");
 }
